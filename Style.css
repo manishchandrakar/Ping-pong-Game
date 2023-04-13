@@ -1,0 +1,89 @@
+/*
+
+
+
+
+body{
+    background-color: black;
+}
+#bar-1{
+    width: 200px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 75px;
+    text-align: center;
+    color: aliceblue;
+}
+
+        /* rod1 & rod2 */
+
+        /* /
+        #bar-2{
+    width: 200px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 75px;
+    margin: 600px 0px 0px 0px;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* boll */
+
+/* 
+#ball{
+
+    width: 25px;
+    height: 25px;
+    background-color: red;
+        border-radius: 100%;
+} */
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  #container {
+    /* border: 1px solid black; */
+    position: relative;
+    color: white;
+  }
+  #ball {
+    height: 20px;
+    width: 20px;
+    /* border:1px solid black; */
+    position: fixed;
+    border-radius: 50%;
+    background-color: red;
+    left: 60%;
+    top: 20px;
+  }
+  #bar-1 {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    background-color: blue;
+    border-radius: 10px;
+    /* border:1px solid black; */
+    position: fixed;
+    font-weight: bold;
+    top: 0%;
+    left: 50%;
+  }
+  #bar-2 {
+    height: 20px;
+    width: 150px;
+    background-color: purple;
+    border-radius: 10px;
+    /* border:1px solid black; */
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    bottom: 0%;
+    left: 50%;
+  }
+  
